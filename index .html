@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>تمرینات تعاملی درس اول زبان انگلیسی هفتم</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+:root{--p1:#7c3aed;--p2:#a855f7;--acc:#06b6d4;--ok:#16a34a;--no:#dc2626;--ink:#1e293b;--muted:#64748b;--r:18px;}
+body{font-family:"Vazirmatn","IRANSans","Segoe UI",Tahoma,Arial,sans-serif;color:var(--ink);background:#f1f5f9;background-image:radial-gradient(circle at 12% 6%,#ddd6fe 0%,transparent 42%),radial-gradient(circle at 88% 12%,#bae6fd 0%,transparent 42%),radial-gradient(circle at 50% 104%,#fbcfe8 0%,transparent 46%);background-attachment:fixed;min-height:100vh;padding:12px;line-height:1.85;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:960px;margin:0 auto;}
+.en{direction:ltr;unicode-bidi:isolate;font-family:"Segoe UI",Roboto,Tahoma,Arial,sans-serif;letter-spacing:.2px;}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;background:rgba(255,255,255,.85);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.7);border-radius:var(--r);padding:10px 14px;box-shadow:0 10px 30px -18px rgba(76,29,149,.55);margin-bottom:16px;flex-wrap:wrap;}
+body.on-start .topbar{display:none;}
+.brand{display:flex;align-items:center;gap:10px;}
+.logo{font-size:1.5rem;}
+.brand-t{font-weight:800;font-size:.98rem;line-height:1.3;}
+.brand-s{font-size:.72rem;color:var(--muted);direction:ltr;unicode-bidi:isolate;}
+.top-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.chip{display:inline-flex;align-items:center;gap:6px;background:#f5f3ff;border:1px solid #ddd6fe;color:#5b21b6;border-radius:999px;padding:5px 12px;font-size:.85rem;font-weight:700;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.score-chip{background:#ecfeff;border-color:#a5f3fc;color:#0e7490;}
+.btn-ghost{background:#fff;color:#6d28d9;border:2px solid #ddd6fe;border-radius:14px;padding:8px 16px;font-family:inherit;font-weight:800;font-size:.86rem;cursor:pointer;transition:.2s;}
+.btn-ghost:hover{background:#f5f3ff;border-color:#c4b5fd;transform:translateY(-1px);}
+.btn-ghost.small{padding:6px 12px;font-size:.8rem;}
+.btn-primary{background:linear-gradient(135deg,#7c3aed,#a855f7);color:#fff;border:0;border-radius:14px;padding:12px 26px;font-family:inherit;font-size:1rem;font-weight:800;cursor:pointer;transition:.2s;box-shadow:0 10px 22px -10px rgba(124,58,237,.9);}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 26px -10px rgba(124,58,237,1);}
+.screen{display:none;animation:fade .35s ease;}
+.screen.active{display:block;}
+@keyframes fade{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+.card{background:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.9);border-radius:24px;padding:26px 22px;box-shadow:0 22px 50px -30px rgba(76,29,149,.6);}
+.hero{text-align:center;padding:38px 24px;}
+.hero-badge{display:inline-block;background:linear-gradient(135deg,#7c3aed,#06b6d4);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:2px;padding:6px 16px;border-radius:99px;margin-bottom:18px;box-shadow:0 8px 20px -8px rgba(124,58,237,.6);direction:ltr;}
+.hero-title-block{line-height:1;margin:8px 0 16px;}
+.hero-line1{font-size:clamp(1.2rem,4.5vw,1.8rem);font-weight:700;color:#64748b;letter-spacing:6px;font-family:"Segoe UI",Tahoma,sans-serif;direction:ltr;}
+.hero-num{display:inline-block;background:linear-gradient(135deg,#7c3aed,#06b6d4);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:900;font-size:1.4em;}
+.hero-line2{font-size:clamp(2.2rem,9vw,3.6rem);font-weight:900;background:linear-gradient(135deg,#6d28d9 0%,#a855f7 40%,#06b6d4 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:1px;direction:ltr;font-family:"Segoe UI",Tahoma,sans-serif;line-height:1.1;filter:drop-shadow(0 4px 12px rgba(124,58,237,.35));}
+.hero-divider{display:flex;align-items:center;justify-content:center;gap:12px;margin:6px 0 14px;}
+.hero-divider span{height:2px;width:60px;background:linear-gradient(90deg,transparent,#a855f7,transparent);}
+.hero-divider i{color:#a855f7;font-style:normal;font-size:1.1rem;}
+.hero-fa{font-size:1rem;font-weight:800;color:#6d28d9;margin:0 0 24px;}
+.namebox{max-width:430px;margin:0 auto;display:flex;flex-direction:column;gap:12px;text-align:right;}
+.namebox label{font-weight:800;font-size:.92rem;color:#4c1d95;}
+.namebox input{font-family:inherit;font-size:1rem;padding:14px 16px;border-radius:14px;border:2px solid #ddd6fe;background:#faf5ff;color:var(--ink);outline:none;transition:.2s;}
+.namebox input:focus{border-color:#a855f7;background:#fff;box-shadow:0 0 0 4px rgba(168,85,247,.15);}
+.err{color:var(--no);font-size:.82rem;font-weight:700;min-height:1.2em;margin:0;text-align:center;}
+.menu-title{text-align:center;font-size:clamp(1rem,3.4vw,1.3rem);margin:6px 0 20px;font-weight:900;color:#3b0764;}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;}
+.menu-card{display:flex;align-items:center;gap:14px;text-align:right;background:rgba(255,255,255,.95);border:2px solid #ede9fe;border-radius:20px;padding:16px;cursor:pointer;font-family:inherit;transition:.22s;box-shadow:0 14px 30px -24px rgba(76,29,149,.7);}
+.menu-card:hover{transform:translateY(-4px);border-color:#c4b5fd;box-shadow:0 20px 36px -22px rgba(76,29,149,.85);}
+.menu-card .ico{font-size:1.7rem;width:52px;height:52px;flex:0 0 52px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#ede9fe,#cffafe);border-radius:16px;}
+.menu-card .txt strong{display:block;font-size:.98rem;color:#3b0764;font-weight:900;}
+.menu-card .txt span{font-size:.78rem;color:var(--muted);}
+.menu-card.lesson .ico{background:linear-gradient(135deg,#fef3c7,#fde68a);}
+.menu-card.photo .ico{background:linear-gradient(135deg,#fce7f3,#fed7aa);}
+.game-head{background:rgba(255,255,255,.92);border-radius:20px;padding:14px 18px;margin-bottom:14px;box-shadow:0 14px 34px -26px rgba(76,29,149,.7);border:1px solid #fff;}
+.game-head .row1{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px;flex-wrap:wrap;}
+.game-head h2{margin:0;font-size:1.05rem;font-weight:900;color:#3b0764;}
+.meta{display:flex;gap:8px;font-size:.8rem;color:var(--muted);font-weight:700;}
+.meta b{color:#7c3aed;}
+.progress{height:10px;background:#ede9fe;border-radius:99px;overflow:hidden;}
+.progress>div{height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,#8b5cf6,#06b6d4);transition:width .45s cubic-bezier(.4,0,.2,1);}
+.qcard{background:rgba(255,255,255,.96);border-radius:24px;padding:24px 20px;box-shadow:0 22px 50px -30px rgba(76,29,149,.6);border:1px solid #fff;min-height:250px;}
+.qlabel{font-size:.86rem;color:var(--muted);font-weight:800;margin-bottom:10px;}
+.qprompt{font-size:clamp(1.4rem,6vw,2rem);font-weight:900;color:#3b0764;text-align:center;padding:14px 6px 6px;word-break:break-word;}
+.qprompt.big{font-size:clamp(1.6rem,7vw,2.4rem);}
+.qprompt.fa-note{font-size:1rem;font-weight:700;color:#6d28d9;padding-top:0;}
+.options{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;}
+@media(max-width:520px){.options{grid-template-columns:1fr;}}
+.opt{padding:14px 12px;border-radius:16px;border:2px solid #e2e8f0;background:#fff;font-family:inherit;font-size:1.02rem;font-weight:700;cursor:pointer;color:#1e293b;transition:.18s;word-break:break-word;}
+.opt:hover:not(:disabled){border-color:#c4b5fd;background:#faf5ff;transform:translateY(-2px);}
+.opt.correct{background:#dcfce7;border-color:#16a34a;color:#15803d;animation:pop .3s;}
+.opt.wrong{background:#fee2e2;border-color:#dc2626;color:#b91c1c;animation:shake .4s;}
+.opt:disabled{cursor:default;opacity:.95;}
+.opt.en{direction:ltr;unicode-bidi:isolate;}
+@keyframes pop{0%{transform:scale(.94);}60%{transform:scale(1.04);}100%{transform:scale(1);}}
+@keyframes shake{0%,100%{transform:translateX(0);}20%{transform:translateX(-7px);}40%{transform:translateX(7px);}60%{transform:translateX(-5px);}80%{transform:translateX(5px);}}
+.slots{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0 6px;direction:ltr;}
+.slot{width:42px;height:50px;border-radius:12px;border:2px dashed #c4b5fd;background:#faf5ff;display:flex;align-items:center;justify-content:center;font-size:1.3rem;font-weight:900;color:#5b21b6;font-family:"Segoe UI",Tahoma,sans-serif;transition:.2s;}
+.slot.filled{border-style:solid;background:#fff;border-color:#a855f7;}
+.slot.ok{background:#dcfce7;border-color:#16a34a;color:#15803d;}
+.slot.bad{background:#fee2e2;border-color:#dc2626;color:#b91c1c;}
+.tiles{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0;direction:ltr;}
+.tile{min-width:44px;height:46px;padding:0 10px;border-radius:12px;border:2px solid #e2e8f0;background:#fff;font-size:1.15rem;font-weight:900;cursor:pointer;font-family:"Segoe UI",Tahoma,sans-serif;color:#3b0764;transition:.16s;}
+.tile:hover:not(:disabled){background:#f5f3ff;border-color:#c4b5fd;transform:translateY(-2px);}
+.tile.used{opacity:.28;pointer-events:none;}
+.row-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px;}
+.answer-line{min-height:64px;border-radius:16px;border:2px dashed #c4b5fd;background:#faf5ff;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:flex-start;direction:ltr;margin-bottom:16px;}
+.answer-line.ok{border-style:solid;border-color:#16a34a;background:#f0fdf4;}
+.answer-line.bad{border-style:solid;border-color:#dc2626;background:#fef2f2;}
+.bank{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;direction:ltr;min-height:50px;}
+.token{padding:9px 14px;border-radius:12px;border:2px solid #e2e8f0;background:#fff;font-family:"Segoe UI",Tahoma,sans-serif;font-size:1rem;font-weight:800;cursor:pointer;color:#3b0764;transition:.16s;direction:ltr;unicode-bidi:isolate;}
+.token:hover:not(:disabled){background:#f5f3ff;border-color:#c4b5fd;transform:translateY(-2px);}
+.token.used{opacity:.25;pointer-events:none;}
+.ph{color:#a78bfa;font-size:.85rem;font-weight:700;padding:0 8px;}
+.match-sec{margin-top:16px;}
+.match-sec .sec-t{font-size:.8rem;font-weight:900;color:#7c3aed;margin-bottom:8px;display:flex;align-items:center;gap:6px;}
+.match-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;direction:ltr;}
+.match-tile{padding:14px 8px;border-radius:16px;border:2px solid #e2e8f0;background:#fff;font-family:"Segoe UI",Tahoma,sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;color:#3b0764;transition:.18s;direction:ltr;unicode-bidi:isolate;word-break:break-word;}
+.match-tile:hover:not(:disabled){background:#f5f3ff;border-color:#c4b5fd;transform:translateY(-2px);}
+.match-tile.sel{border-color:#a855f7;background:#f3e8ff;box-shadow:0 0 0 4px rgba(168,85,247,.18);}
+.match-tile.matched{background:#dcfce7;border-color:#16a34a;color:#15803d;opacity:.72;cursor:default;}
+.match-tile.shake{animation:shake .45s;}
+.inline-hint{text-align:center;font-size:.85rem;font-weight:800;color:#b45309;min-height:1.4em;margin-top:12px;}
+.result-card{text-align:center;padding:36px 22px;}
+.big-emoji{font-size:3.6rem;line-height:1;}
+.result-card h2{margin:10px 0 4px;font-size:1.4rem;color:#3b0764;font-weight:900;}
+.res-name{color:var(--muted);font-size:.9rem;margin:0 0 18px;}
+.res-score{display:inline-block;background:linear-gradient(135deg,#f5f3ff,#ecfeff);border:2px solid #ddd6fe;border-radius:18px;padding:12px 26px;font-size:1.1rem;font-weight:900;color:#5b21b6;margin-bottom:10px;}
+.res-score span{font-size:1.5rem;color:#7c3aed;}
+.stars{font-size:1.8rem;letter-spacing:6px;margin:8px 0 22px;}
+.lesson h2{font-size:1.15rem;color:#3b0764;margin:26px 0 10px;font-weight:900;border-right:5px solid #a855f7;padding-right:10px;}
+.lesson h2:first-child{margin-top:0;}
+.lesson p{margin:8px 0;font-size:.94rem;}
+.note{background:#f5f3ff;border:1px solid #ddd6fe;border-radius:16px;padding:12px 16px;font-size:.9rem;margin:12px 0;}
+.note.warn{background:#fffbeb;border-color:#fde68a;}
+.example{display:block;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:8px 14px;margin:6px 0;font-size:.95rem;direction:ltr;unicode-bidi:isolate;text-align:left;font-family:"Segoe UI",Tahoma,sans-serif;color:#0f172a;}
+.example b{color:#7c3aed;}
+table.vocab{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:10px;}
+table.vocab th{background:#f5f3ff;color:#5b21b6;padding:9px;font-size:.82rem;}
+table.vocab td{border-bottom:1px solid #f1f5f9;padding:7px 9px;text-align:center;}
+table.vocab tr:hover td{background:#faf5ff;}
+.speak-btn{background:#ecfeff;border:1px solid #a5f3fc;color:#0e7490;border-radius:10px;padding:3px 10px;cursor:pointer;font-size:.8rem;font-family:inherit;font-weight:800;}
+.speak-btn:hover{background:#cffafe;}
+.table-wrap{overflow-x:auto;}
+.be-table{width:100%;border-collapse:collapse;text-align:center;font-size:.9rem;margin:10px 0;}
+.be-table th,.be-table td{border:1px solid #e2e8f0;padding:8px;}
+.be-table th{background:#f5f3ff;color:#5b21b6;}
+.be-table td{font-family:"Segoe UI",Tahoma,sans-serif;font-weight:700;direction:ltr;}
+.overlay{position:fixed;inset:0;background:rgba(30,27,75,.55);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:16px;opacity:0;pointer-events:none;transition:.25s;z-index:100;}
+.overlay.show{opacity:1;pointer-events:auto;}
+.popup{background:#fff;border-radius:24px;max-width:520px;width:100%;box-shadow:0 30px 70px -20px rgba(0,0,0,.5);transform:translateY(20px) scale(.96);transition:.28s cubic-bezier(.2,.9,.3,1.2);overflow:hidden;max-height:88vh;display:flex;flex-direction:column;}
+.overlay.show .popup{transform:none;}
+.popup-head{background:linear-gradient(135deg,#7c3aed,#06b6d4);padding:14px 20px;}
+.popup-head h3{margin:0;color:#fff;font-size:1rem;font-weight:900;}
+.popup-body{padding:18px 20px;font-size:.93rem;overflow-y:auto;line-height:2;}
+.popup-body b{color:#6d28d9;}
+.popup-foot{padding:0 20px 18px;display:flex;justify-content:flex-end;}
+.popup-foot .btn-primary{width:100%;}
+#toasts{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:200;display:flex;flex-direction:column;gap:8px;align-items:center;pointer-events:none;}
+.toast{padding:10px 22px;border-radius:999px;font-weight:900;font-size:.9rem;color:#fff;box-shadow:0 14px 30px -14px rgba(0,0,0,.5);animation:toastIn .3s ease;white-space:nowrap;}
+.toast.ok{background:linear-gradient(135deg,#16a34a,#22c55e);}
+.toast.no{background:linear-gradient(135deg,#dc2626,#f97316);}
+.toast.out{opacity:0;transform:translateY(-12px);transition:.4s;}
+@keyframes toastIn{from{opacity:0;transform:translateY(-14px) scale(.9);}to{opacity:1;transform:none;}}
+.site-footer{margin:24px 0 8px;text-align:center;font-size:.8rem;color:#475569;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.9);border-radius:18px;padding:16px 14px;line-height:2;box-shadow:0 12px 30px -26px rgba(76,29,149,.7);}
+.site-footer .fname{font-weight:900;color:#3b0764;font-size:.92rem;}
+
+/* ===== CREATIVE ATLAS THEME — visual redesign only ===== */
+:root{
+  --p1:#e56b45;--p2:#f0a35e;--acc:#2a9d8f;--ok:#25856a;--no:#c94c55;
+  --ink:#20313a;--muted:#718087;--r:22px;
+}
+body{
+  color:var(--ink);
+  background-color:#f4efe5;
+  background-image:
+    radial-gradient(circle at 8% 8%,rgba(240,163,94,.30),transparent 28%),
+    radial-gradient(circle at 92% 18%,rgba(42,157,143,.20),transparent 30%),
+    radial-gradient(circle at 50% 100%,rgba(229,107,69,.13),transparent 38%),
+    linear-gradient(135deg,#f8f4eb 0%,#eee8dc 100%);
+  background-attachment:fixed;
+}
+.wrap{max-width:1040px}
+.topbar{
+  background:rgba(32,49,58,.94);color:#fff;border:1px solid rgba(255,255,255,.12);
+  border-radius:18px;padding:13px 18px;box-shadow:0 16px 36px -22px rgba(32,49,58,.65);
+}
+.brand-t{color:#fff}.brand-s{color:#b9c8c5}
+.chip{background:#f6e6d4;border:1px solid #e9c8a7;color:#8d4c32}
+.score-chip{background:#dceee8;border-color:#b8d9cd;color:#236e62}
+.btn-ghost{
+  color:#a84f35;border:1.5px solid #e6b08b;background:#fffaf2;border-radius:12px;
+}
+.btn-ghost:hover{background:#f8e8d8;border-color:#df9068}
+.btn-primary{
+  background:linear-gradient(120deg,#d95f42,#ef9a59 58%,#e7b85f);
+  color:#fff;border-radius:13px;box-shadow:0 12px 24px -12px rgba(195,91,56,.8);
+}
+.btn-primary:hover{box-shadow:0 16px 28px -12px rgba(195,91,56,.85)}
+.card,.qcard,.game-head{
+  background:rgba(255,252,246,.94);border:1px solid rgba(255,255,255,.9);
+  border-radius:25px;box-shadow:0 22px 55px -34px rgba(48,62,60,.48);
+}
+.hero{
+  position:relative;overflow:hidden;padding:clamp(30px,6vw,64px) 24px;
+  border:1px solid #fff9ef;
+}
+.hero::before,.hero::after{
+  content:"";position:absolute;border-radius:50%;pointer-events:none;z-index:0;
+}
+.hero::before{width:210px;height:210px;top:-105px;left:-65px;border:28px solid rgba(42,157,143,.10)}
+.hero::after{width:150px;height:150px;bottom:-90px;right:-45px;background:rgba(229,107,69,.09)}
+.hero>*{position:relative;z-index:1}
+.hero-badge{
+  background:#203b43;color:#f8d7a8;border-radius:8px;letter-spacing:2.5px;
+  box-shadow:none;padding:8px 16px;
+}
+.hero-line1{color:#77827d;letter-spacing:5px}
+.hero-num{
+  background:linear-gradient(135deg,#d95f42,#e5a34f);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-line2{
+  background:linear-gradient(110deg,#203b43 8%,#d95f42 58%,#d49a43 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:none;letter-spacing:-1px;
+}
+.hero-divider span{background:linear-gradient(90deg,transparent,#e58a59,transparent)}
+.hero-divider i{color:#d96e4c}
+.hero-fa,.namebox label{color:#a64f37}
+.namebox input{
+  background:#fffaf2;border:1.5px solid #e6cbb1;border-radius:12px;
+}
+.namebox input:focus{border-color:#d97952;box-shadow:0 0 0 4px rgba(217,121,82,.13)}
+.menu-title{color:#203b43}
+.menu-card{
+  background:rgba(255,252,246,.96);border:1.5px solid #e9dfd0;border-radius:18px;
+  box-shadow:0 14px 28px -23px rgba(32,49,58,.65);
+}
+.menu-card:hover{border-color:#df9874;box-shadow:0 20px 34px -22px rgba(32,49,58,.55)}
+.menu-card .ico{
+  color:#fff;background:linear-gradient(145deg,#294b50,#3e7770);border-radius:15px;
+}
+.menu-card .txt strong{color:#203b43}
+.menu-card .txt span{color:#77827d}
+.menu-card.lesson .ico{background:linear-gradient(145deg,#d58a43,#edbd72)}
+.menu-card.photo .ico{background:linear-gradient(145deg,#d66b50,#eaa078)}
+.game-head h2,.qprompt,.lesson h2,.result-card h2{color:#24464a}
+.meta b{color:#d96b49}
+.progress{background:#e8dfd2;height:11px}
+.progress>div{background:linear-gradient(90deg,#d95f42,#eda45b 55%,#2a9d8f)}
+.qcard{min-height:250px}
+.qlabel{color:#77827d}
+.qprompt.fa-note{color:#a65a3d}
+.opt,.tile,.token,.match-tile{
+  border:1.5px solid #e5ddd1;background:#fffdf8;color:#29464a;border-radius:13px;
+}
+.opt:hover:not(:disabled),.tile:hover:not(:disabled),.token:hover:not(:disabled),.match-tile:hover:not(:disabled){
+  border-color:#dc916e;background:#fff5e9;
+}
+.opt.correct,.slot.ok,.match-tile.matched{background:#e0f0e8;border-color:#55a88b;color:#226c56}
+.opt.wrong,.slot.bad{background:#fbe6e3;border-color:#d8756d;color:#a93f43}
+.slot{border-color:#dfad8b;background:#fff8ef;color:#a45136}
+.slot.filled{border-color:#d97b55;background:#fff}
+.answer-line{border-color:#dca783;background:#fff8ef}
+.answer-line.ok{border-color:#55a88b;background:#edf7f1}
+.answer-line.bad{border-color:#d8756d;background:#fff0ed}
+.ph{color:#c17b55}
+.match-sec .sec-t{color:#bd6545}
+.match-tile.sel{border-color:#d97952;background:#fbe8dc;box-shadow:0 0 0 3px rgba(217,121,82,.13)}
+.inline-hint{color:#a66a2d}
+.res-score{background:linear-gradient(120deg,#f8eadb,#e1f0e9);border:1.5px solid #e7c7a9;color:#9a5438}
+.res-score span{color:#d96b49}
+.lesson h2{border-right:5px solid #d97952;padding-right:12px}
+.note{background:#f9eee2;border:1px solid #efd2b7}
+.note.warn{background:#fbf2d9;border-color:#e9d49b}
+.example{background:#fffdf8;border:1px solid #e9dfd0;color:#29464a;border-radius:10px}
+.example b{color:#c65e40}
+table.vocab th,.be-table th{background:#294b50;color:#fff}
+table.vocab td{border-bottom:1px solid #eee6da}
+table.vocab tr:hover td{background:#fff5e9}
+.be-table th,.be-table td{border:1px solid #e6ddd0}
+.speak-btn{background:#e1f0e9;border:1px solid #b9d8cb;color:#267466}
+.speak-btn:hover{background:#cfe7dc}
+.popup{border-radius:20px;background:#fffaf2}
+.popup-head{background:linear-gradient(110deg,#294b50,#39766e 65%,#d78a52)}
+.popup-body b{color:#bd6042}
+.site-footer{
+  background:rgba(32,49,58,.94);border:1px solid rgba(255,255,255,.12);
+  color:#d5dfd9;border-radius:17px;box-shadow:0 14px 32px -22px rgba(32,49,58,.6);
+}
+.site-footer .fname{color:#f2bd83}
+.site-footer a{color:#f0b17d}
+.site-footer .eitaa{color:#9dd5c3}
+.toast.ok{background:linear-gradient(120deg,#267d68,#45a98a)}
+.toast.no{background:linear-gradient(120deg,#bd4c50,#dc8051)}
+@media(max-width:600px){
+  body{padding:9px}
+  .topbar{padding:11px 12px}
+  .hero{padding:34px 16px}
+  .card{padding:21px 15px}
+  .menu-grid{grid-template-columns:1fr}
+}
+
+
+
+
+/* ===== CREATIVE LAYOUT UPDATE — same palette, refreshed interactions ===== */
+
+/* More expressive hover states */
+button, .menu-card, .speak-btn {
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease,
+              background .22s ease, filter .22s ease;
+}
+button:focus-visible, .menu-card:focus-visible {
+  outline: 3px solid rgba(42,157,143,.45);
+  outline-offset: 3px;
+}
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-3px) scale(1.015);
+  filter: saturate(1.12) brightness(1.04);
+  box-shadow: 0 17px 30px -12px rgba(195,91,56,.72);
+}
+.btn-primary:active:not(:disabled), .btn-ghost:active:not(:disabled) {
+  transform: translateY(1px) scale(.985);
+}
+.btn-ghost:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: #e4f1eb;
+  border-color: #6eaa98;
+  color: #286b60;
+}
+
+/* Re-shaped activity cards: angled accent rail + floating icon */
+.menu-grid { gap: 16px; }
+.menu-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 104px;
+  padding: 17px 19px;
+  border: 1px solid #e7d8c5;
+  border-radius: 12px 25px 12px 25px;
+  box-shadow: 0 9px 0 rgba(41,75,80,.045), 0 15px 28px -23px rgba(32,49,58,.55);
+  text-align: right;
+}
+.menu-card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 auto 0 0;
+  width: 7px;
+  background: linear-gradient(180deg,#2a9d8f,#d98a55);
+  transition: width .24s ease, opacity .24s ease;
+  opacity: .8;
+}
+.menu-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 110px;
+  height: 110px;
+  left: -48px;
+  bottom: -68px;
+  border: 1px solid rgba(42,157,143,.17);
+  border-radius: 34px;
+  transform: rotate(35deg);
+  transition: transform .28s ease, border-color .28s ease;
+}
+.menu-card:hover, .menu-card:focus-visible {
+  transform: translateY(-5px) translateX(-2px);
+  border-color: #d98a65;
+  background: linear-gradient(115deg,#fffaf2 0%,#f2f5ec 100%);
+  box-shadow: 0 7px 0 rgba(217,121,82,.10), 0 22px 35px -22px rgba(32,49,58,.65);
+}
+.menu-card:hover::before, .menu-card:focus-visible::before { width: 12px; opacity: 1; }
+.menu-card:hover::after, .menu-card:focus-visible::after {
+  transform: rotate(58deg) scale(1.18);
+  border-color: rgba(217,121,82,.32);
+}
+.menu-card .ico {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px 8px 18px 8px;
+  box-shadow: 0 7px 14px -9px rgba(32,49,58,.8);
+  transition: transform .25s ease, border-radius .25s ease, filter .25s ease;
+}
+.menu-card:hover .ico {
+  transform: rotate(-7deg) scale(1.09);
+  border-radius: 9px 19px 9px 19px;
+  filter: saturate(1.15);
+}
+.menu-card .txt strong { display: block; margin-bottom: 5px; }
+.menu-card .txt span { line-height: 1.7; }
+
+/* Score chip becomes a small points badge */
+.score-chip {
+  position: relative;
+  border-radius: 999px;
+  padding: 8px 14px;
+  box-shadow: inset 0 0 0 1px rgba(42,157,143,.08);
+}
+.score-chip span:first-child { display: inline-block; filter: drop-shadow(0 2px 2px rgba(217,138,85,.25)); }
+#scoreTop {
+  display: inline-grid;
+  place-items: center;
+  min-width: 27px;
+  min-height: 27px;
+  margin-right: 4px;
+  padding: 0 6px;
+  border-radius: 9px;
+  background: #294b50;
+  color: #fff8e9;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Progress area feels like a game level meter */
+.game-head {
+  border-radius: 12px 26px 12px 26px;
+  padding: 19px 21px 17px;
+  border: 1px solid #e7d8c5;
+}
+.progress {
+  height: 13px;
+  margin-top: 13px;
+  padding: 3px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8dfd2;
+  box-shadow: inset 0 1px 3px rgba(32,49,58,.10);
+}
+.progress > div {
+  height: 100%;
+  border-radius: 999px;
+  box-shadow: 0 0 10px rgba(42,157,143,.28);
+  transition: width .45s cubic-bezier(.2,.8,.2,1);
+}
+
+/* Question and answer tiles get a softer lift */
+.qcard {
+  border-radius: 18px 30px 18px 30px;
+  border: 1px solid #e8ddcd;
+}
+.opt:hover:not(:disabled), .tile:hover:not(:disabled),
+.token:hover:not(:disabled), .match-tile:hover:not(:disabled) {
+  transform: translateY(-3px);
+  border-color: #2a9d8f;
+  background: linear-gradient(135deg,#f0f7f1,#fff3e7);
+  box-shadow: 0 8px 16px -12px rgba(32,49,58,.65);
+}
+.opt:disabled, .tile:disabled, .token:disabled, .match-tile:disabled {
+  cursor: default;
+}
+
+/* A more celebratory result and scoring panel */
+.result-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px 34px 18px 34px;
+  border: 1px solid #e8d5bd;
+  background:
+    radial-gradient(circle at 95% 5%,rgba(42,157,143,.13),transparent 27%),
+    radial-gradient(circle at 5% 95%,rgba(229,107,69,.13),transparent 30%),
+    rgba(255,252,246,.97);
+}
+.result-card::before, .result-card::after {
+  content: "✦";
+  position: absolute;
+  color: rgba(217,138,85,.38);
+  font-size: 34px;
+  pointer-events: none;
+}
+.result-card::before { top: 17px; right: 22px; transform: rotate(12deg); }
+.result-card::after { bottom: 18px; left: 24px; transform: rotate(-15deg); }
+.result-card .big-emoji {
+  display: inline-grid;
+  place-items: center;
+  width: 82px;
+  height: 82px;
+  margin: 4px auto 12px;
+  border-radius: 26px 12px 26px 12px;
+  background: linear-gradient(145deg,#f7e5cf,#dceee6);
+  box-shadow: 0 12px 25px -16px rgba(32,49,58,.55);
+  animation: result-pop .55s cubic-bezier(.2,.8,.2,1) both;
+}
+@keyframes result-pop {
+  from { opacity: 0; transform: translateY(10px) scale(.82) rotate(-7deg); }
+  to { opacity: 1; transform: translateY(0) scale(1) rotate(0); }
+}
+.res-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: fit-content;
+  margin: 16px auto 12px;
+  padding: 13px 22px;
+  border: 1px solid #d8c39f;
+  border-radius: 16px 28px 16px 28px;
+  background: linear-gradient(120deg,#fff4e4,#e3f2e9);
+  color: #294b50;
+  box-shadow: 0 10px 22px -17px rgba(32,49,58,.65);
+  font-weight: 800;
+}
+.res-score span {
+  display: inline-grid;
+  place-items: center;
+  min-width: 35px;
+  min-height: 35px;
+  padding: 0 8px;
+  border-radius: 11px;
+  background: #294b50;
+  color: #fff3df;
+  font-size: 1.2rem;
+}
+.res-score span + span {
+  background: #d97852;
+  color: #fff;
+}
+.stars {
+  display: inline-block;
+  margin: 7px auto 18px;
+  padding: 9px 20px;
+  border: 1px solid #e7c98e;
+  border-radius: 999px;
+  background: linear-gradient(110deg,#fff3d7,#f8e6ca);
+  color: #b87924;
+  font-size: 1.65rem;
+  letter-spacing: 5px;
+  text-shadow: 0 2px 5px rgba(184,121,36,.15);
+  box-shadow: 0 8px 18px -15px rgba(120,83,31,.65);
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+@media(max-width:600px) {
+  .menu-card { min-height: 92px; padding: 14px; }
+  .menu-card .ico { flex-basis: 48px; width: 48px; height: 48px; }
+  .res-score { padding: 10px 14px; gap: 6px; font-size: 1rem; }
+  .stars { font-size: 1.35rem; letter-spacing: 3px; }
+}
+
+
+</style>
+</head>
+<body class="on-start">
+<div class="wrap">
+
+  <header class="topbar" id="topbar">
+    <div class="brand">
+      <span class="logo">📘</span>
+      <div>
+        <div class="brand-t">درس اول — نام من</div>
+        <div class="brand-s">My Name</div>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="chip"><span>👤</span><span id="userNameTop">—</span></div>
+      <div class="chip score-chip"><span>⭐</span><span id="scoreTop">0</span></div>
+      <button class="btn-ghost small" id="resetBtn">🔄 ریست</button>
+    </div>
+  </header>
+
+  <section id="screen-start" class="screen active">
+    <div class="hero card">
+      <div class="hero-badge">✦ English · Grade 7 · Prospect 1 ✦</div>
+      <div class="hero-title-block">
+        <div class="hero-line1">Lesson <span class="hero-num">1</span></div>
+        <div class="hero-line2">My Name</div>
+      </div>
+      <div class="hero-divider"><span></span><i>✦</i><span></span></div>
+      <p class="hero-fa">درس اول — نام من</p>
+      <div class="namebox">
+        <label for="nameInput">نام و نام خانوادگی خود را وارد کنید:</label>
+        <input id="nameInput" type="text" placeholder="مثلاً: سارا رضایی" autocomplete="off">
+        <p class="err" id="nameErr"></p>
+        <button class="btn-primary" id="startBtn">شروع تمرین‌ها ←</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen-menu" class="screen">
+    <h2 class="menu-title">سلام <span id="menuName" style="color:#7c3aed"></span>! کدام تمرین را شروع کنیم؟</h2>
+    <div class="menu-grid">
+      <button class="menu-card" data-game="vocab"><span class="ico">📖</span><span class="txt"><strong>معنی واژه‌ها</strong><span>۱۲ سؤال · تشخیص معادل درست</span></span></button>
+      <button class="menu-card" data-game="spelling"><span class="ico">✏️</span><span class="txt"><strong>املای واژه‌ها</strong><span>۸ سؤال · ساختن واژه با حروف</span></span></button>
+      <button class="menu-card" data-game="grammar"><span class="ico">🧩</span><span class="txt"><strong>گرامر و ساختارها</strong><span>۱۰ سؤال · جای خالی</span></span></button>
+      <button class="menu-card" data-game="scramble"><span class="ico">🔀</span><span class="txt"><strong>مرتب کردن جمله‌ها</strong><span>۸ سؤال · جمله‌سازی</span></span></button>
+      <button class="menu-card" data-game="qamatch"><span class="ico">🔗</span><span class="txt"><strong>سؤال و پاسخ را جور کن</strong><span>۶ جفت · بازی تطبیق</span></span></button>
+      <button class="menu-card" data-game="situation"><span class="ico">🧠</span><span class="txt"><strong>کدام عبارت؟</strong><span>۸ سؤال · تشخیص عبارت از موقعیت</span></span></button>
+      <button class="menu-card photo" data-game="photo"><span class="ico">🖼️</span><span class="txt"><strong>تصویرواژه‌نامه</strong><span>۸ سؤال · اشیاء کلاس و رنگ‌ها</span></span></button>
+      <button class="menu-card lesson" id="lessonBtn"><span class="ico">📚</span><span class="txt"><strong>درسنامه و مرور دانسته‌ها</strong><span>خلاصه کامل + مثال</span></span></button>
+    </div>
+  </section>
+
+  <section id="screen-lesson" class="screen">
+    <div class="card lesson">
+      <div class="row-btns" style="justify-content:flex-start;margin:0 0 16px;">
+        <button class="btn-ghost" id="lessonBack">→ بازگشت به منو</button>
+      </div>
+
+      <h2>۱) سلام و احوالپرسی (Greetings)</h2>
+      <p>در انگلیسی برای سلام کردن بسته به موقعیت از عبارت‌های زیر استفاده می‌کنیم:</p>
+      <code class="example"><b>Hello!</b> &nbsp;→&nbsp; سلام (رسمی یا دوستانه)</code>
+      <code class="example"><b>Hi!</b> &nbsp;→&nbsp; سلام (دوستانه و غیررسمی)</code>
+      <code class="example"><b>Good morning!</b> &nbsp;→&nbsp; صبح بخیر (تا ظهر)</code>
+      <code class="example"><b>Good afternoon!</b> &nbsp;→&nbsp; ظهر بخیر (بعد از ظهر)</code>
+      <p>برای پرسیدن حال کسی از این ساختارها استفاده می‌کنیم:</p>
+      <code class="example"><b>How are you?</b> &nbsp;→&nbsp; حالت چطور است؟</code>
+      <code class="example"><b>How are you today?</b> &nbsp;→&nbsp; امروز حالت چطور است؟</code>
+      <p>و پاسخ‌های رایج:</p>
+      <code class="example"><b>I'm fine, thanks.</b> &nbsp;→&nbsp; خوبم، ممنون.</code>
+      <code class="example"><b>I'm fine, thank you.</b> &nbsp;→&nbsp; خوبم، متشکرم. (رسمی‌تر)</code>
+      <code class="example"><b>Great, thanks.</b> &nbsp;→&nbsp; عالی، ممنون.</code>
+      <div class="note">💡 <b class="en">thanks</b> و <b class="en">thank you</b> هر دو یعنی «ممنون / متشکرم»؛ <b class="en">thank you</b> رسمی‌تر است.</div>
+
+      <h2>۲) پرسیدن نام (Asking Names)</h2>
+      <code class="example"><b>What is your name?</b> &nbsp;→&nbsp; اسمت چیست؟</code>
+      <code class="example"><b>What's your name?</b> &nbsp;→&nbsp; (کوتاه‌شده) اسمت چیست؟</code>
+      <div class="note warn">⚠️ <b class="en">What's</b> مخفف <b class="en">What is</b> است.</div>
+
+      <h2>۳) معرفی کردن خود (Introducing Yourself)</h2>
+      <code class="example"><b>My name is</b> Ali. &nbsp;→&nbsp; اسم من علی است.</code>
+      <code class="example"><b>I am</b> Ali. &nbsp;|&nbsp; <b>I'm</b> Ali. &nbsp;→&nbsp; من علی هستم.</code>
+      <div class="note">💡 <b class="en">My name is …</b> و <b class="en">I'm …</b> هر دو درست هستند.</div>
+
+      <h2>۴) نام کوچک (First Name)</h2>
+      <p>در نام کامل «علی رضایی»، «علی» <b>نام کوچک</b> است. در انگلیسی به آن <b class="en">first name</b> می‌گویند.</p>
+      <code class="example"><b>What's your first name?</b> &nbsp;→&nbsp; نام کوچکت چیست؟</code>
+      <code class="example"><b>My first name is</b> Ali.</code>
+
+      <h2>۵) نام خانوادگی (Last Name)</h2>
+      <p>در نام کامل «علی رضایی»، «رضایی» <b>نام خانوادگی</b> است. در انگلیسی به آن <b class="en">last name</b> می‌گویند.</p>
+      <code class="example"><b>What's your last name?</b> &nbsp;→&nbsp; نام خانوادگی‌ات چیست؟</code>
+      <code class="example"><b>My last name is</b> Rezaei.</code>
+
+      <h2>۶) هجی کردن نام (Spelling Names)</h2>
+      <p>وقتی می‌خواهیم بدانیم نام کسی چطور نوشته می‌شود، از <b class="en">spell</b> استفاده می‌کنیم. این سؤال‌ها <b>همیشه خطاب به خود مخاطب</b> هستند:</p>
+      <code class="example"><b>How do you spell your name?</b> &nbsp;→&nbsp; چطور نامت را هجی می‌کنی؟</code>
+      <code class="example"><b>How do you spell your first name?</b> &nbsp;→&nbsp; چطور نام کوچکت را هجی می‌کنی؟</code>
+      <code class="example"><b>How do you spell your last name?</b> &nbsp;→&nbsp; چطور نام خانوادگی‌ات را هجی می‌کنی؟</code>
+      <p>پاسخ با هجی کردن حروف:</p>
+      <code class="example">A-L-I.</code>
+      <code class="example">R-E-Z-A-E-I.</code>
+      <div class="note">💡 در انگلیسی <b class="en">spell</b> یعنی «حرف‌به‌حرف گفتن یک واژه».</div>
+
+      <h2>۷) درخواست مودبانهٔ گفتن نام</h2>
+      <code class="example"><b>Tell me your name, please.</b> &nbsp;→&nbsp; لطفاً نامت را به من بگو.</code>
+      <code class="example"><b>Say your name, please.</b> &nbsp;→&nbsp; لطفاً نامت را بگو.</code>
+      <div class="note warn">
+        ⚠️ تفاوت <b class="en">tell</b> و <b class="en">say</b>:<br>
+        <b class="en">tell</b> نیاز به مفعول (به من / به او) دارد → <b class="en">Tell <u>me</u> your name.</b><br>
+        <b class="en">say</b> بدون مفعول مستقیم می‌آید → <b class="en">Say your name.</b>
+      </div>
+
+      <h2>۸) القاب احترامی (Titles)</h2>
+      <code class="example"><b>Mr.</b> &nbsp;→&nbsp; آقای … (برای مردان)</code>
+      <code class="example"><b>Mrs.</b> &nbsp;→&nbsp; خانم … (برای زنان متأهل)</code>
+      <code class="example"><b>Miss</b> &nbsp;→&nbsp; خانم … (برای زنان مجرد)</code>
+      <p>مثال‌ها:</p>
+      <code class="example"><b>Mr.</b> Karimi is my teacher. (مرد)</code>
+      <code class="example"><b>Mrs.</b> Ahmadi is my teacher. (زن متأهل)</code>
+      <code class="example"><b>Miss</b> Maryam is my teacher. (زن مجرد)</code>
+      <div class="note">💡 نکته: بعد از <b class="en">Mr.</b> و <b class="en">Mrs.</b> نقطه می‌گذاریم (چون مخفف هستند)، اما بعد از <b class="en">Miss</b> نقطه نمی‌گذاریم.</div>
+
+      <h2>۹) فعل «بودن» (to be) — جدول کامل</h2>
+      <div class="table-wrap">
+        <table class="be-table">
+          <tr><th>فاعل</th><th>مثبت</th><th>منفی</th><th>سؤالی</th></tr>
+          <tr><td>I</td><td>am / I'm</td><td>am not / I'm not</td><td>Am I …?</td></tr>
+          <tr><td>He / She</td><td>is / He's / She's</td><td>isn't</td><td>Is he …?</td></tr>
+          <tr><td>You / We / They</td><td>are / You're</td><td>aren't</td><td>Are you …?</td></tr>
+        </table>
+      </div>
+
+      <h2>۱۰) ضمایر فاعلی (Subject Pronouns)</h2>
+      <code class="example">I (من) &nbsp;|&nbsp; you (تو / شما) &nbsp;|&nbsp; he (او — مذکر) &nbsp;|&nbsp; she (او — مؤنث)</code>
+      <div class="note">💡 برای اشیاء و حیوانات از <b class="en">it</b> استفاده می‌شود: <span class="en" dir="ltr">It is a book.</span></div>
+
+      <h2>۱۱) واژه‌نامهٔ درس اول</h2>
+      <p style="font-size:.84rem;color:#64748b;">برای شنیدن تلفظ، روی دکمهٔ 🔊 کلیک کنید.</p>
+      <div class="table-wrap">
+        <table class="vocab" id="vocabTable">
+          <thead><tr><th>#</th><th>واژه / عبارت</th><th>معنی</th><th>تلفظ</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>۱۲) تصویرواژه‌نامه (Photo Dictionary)</h2>
+      <p style="font-size:.84rem;color:#64748b;">اشیاء کلاس و رنگ‌ها.</p>
+      <div class="table-wrap">
+        <table class="vocab" id="photoTable">
+          <thead><tr><th>#</th><th>واژه</th><th>معنی</th><th>تلفظ</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen-game" class="screen">
+    <div class="game-head">
+      <div class="row1">
+        <h2 id="gameTitle">—</h2>
+        <div class="meta"><span id="qCounter">—</span><span>· درست: <b id="gCorrect">0</b></span></div>
+      </div>
+      <div class="progress"><div id="progressFill"></div></div>
+    </div>
+    <div id="gameBody"></div>
+    <div class="row-btns" style="margin-top:16px;">
+      <button class="btn-ghost" id="gameBack">→ بازگشت به منو</button>
+    </div>
+  </section>
+
+  <section id="screen-result" class="screen">
+    <div class="card result-card">
+      <div class="big-emoji" id="resEmoji">🎉</div>
+      <h2 id="resTitle">آفرین!</h2>
+      <p class="res-name" id="resName"></p>
+      <div class="res-score"><span id="resCorrect">0</span> از <span id="resTotal">0</span> پاسخ درست</div>
+      <div class="stars" id="resStars"></div>
+      <div class="row-btns">
+        <button class="btn-primary" id="againBtn">تکرار همین تمرین</button>
+        <button class="btn-ghost" id="toMenuBtn">بازگشت به منو</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+</div>
+
+<div class="overlay" id="popupOverlay">
+  <div class="popup" role="dialog" aria-modal="true">
+    <div class="popup-head"><h3 id="popupTitle">راهنما</h3></div>
+    <div class="popup-body" id="popupBody"></div>
+    <div class="popup-foot"><button class="btn-primary" id="popupClose">فهمیدم، ادامه بدهم</button></div>
+  </div>
+</div>
+
+<div id="toasts"></div>
+<!-- ⬇️ ادامه در بخش ۲: کد جاوااسکریپت — همین خط را با محتوای بخش ۲ جایگزین کنید -->
+<script>
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+const $  = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+const rnd = a => a[Math.floor(Math.random()*a.length)];
+function shuffle(a){
+  const b = a.slice();
+  for(let i=b.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]]; }
+  return b;
+}
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+/* ---------- TTS ---------- */
+function speak(text){
+  try{
+    if(!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US'; u.rate = 0.85; u.pitch = 1;
+    window.speechSynthesis.speak(u);
+  }catch(e){}
+}
+
+/* ---------- TOAST ---------- */
+function toast(msg, type){
+  const t = document.createElement('div');
+  t.className = 'toast ' + type; t.textContent = msg;
+  $('#toasts').appendChild(t);
+  setTimeout(()=>{ t.classList.add('out'); setTimeout(()=>t.remove(),420); }, 1500);
+}
+const OK_MSGS = ['آفرین! 🎉','عالی بود! 👏','درسته! ⭐','دقیقاً! 💯','خیلی خوب! 🌟','ماشالله! 🔥','کاملاً درست! ✅'];
+const NO_MSGS = ['اشکالی نداره، با هم مرور کنیم 💡','نزدیک بود! دقت کن ⚠️','یه بار دیگه فکر کن 🤔','این یکی رو یاد بگیر 📘','مهم نیست، یادگیری مهمه 💪'];
+
+/* ---------- POPUP ---------- */
+let popupCb = null;
+function showPopup(title, html, cb){
+  $('#popupTitle').innerHTML = title;
+  $('#popupBody').innerHTML = html;
+  popupCb = cb || null;
+  $('#popupOverlay').classList.add('show');
+}
+function closePopup(){
+  const ov = $('#popupOverlay');
+  if(!ov.classList.contains('show')) return;
+  ov.classList.remove('show');
+  const cb = popupCb; popupCb = null;
+  if(cb) cb();
+}
+$('#popupClose').addEventListener('click', closePopup);
+$('#popupOverlay').addEventListener('click', e=>{ if(e.target === $('#popupOverlay')) closePopup(); });
+
+document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closePopup(); });
+
+/* ---------- اطلاعات تهیه‌کننده ---------- */
+(function(){
+  const f = document.getElementById('siteFooter');
+  if(f){
+    f.innerHTML =
+      '<div class="fname">ملیحه شیخ نوری</div>' +
+      '<div>دبیر زبان انگلیسی منطقه پنج تهران</div>';
+  }
+})();
+
+/* ============================================================
+   DATA
+   ============================================================ */
+
+/* --- واژه‌نامهٔ درس اول --- */
+const WORDS = [
+  {en:'name',           fa:'نام'},
+  {en:'first name',     fa:'نام کوچک'},
+  {en:'last name',      fa:'نام خانوادگی'},
+  {en:'hello',          fa:'سلام'},
+  {en:'hi',             fa:'سلام (غیررسمی)'},
+  {en:'good morning',   fa:'صبح بخیر'},
+  {en:'good afternoon', fa:'ظهر بخیر'},
+  {en:'fine',           fa:'خوب'},
+  {en:'great',          fa:'عالی'},
+  {en:'thanks',         fa:'ممنون'},
+  {en:'thank you',      fa:'متشکرم'},
+  {en:'please',         fa:'لطفاً'},
+  {en:'spell',          fa:'هجی کردن'},
+  {en:'tell',           fa:'گفتن (با مفعول)'},
+  {en:'say',            fa:'گفتن (بدون مفعول)'},
+  {en:'teacher',        fa:'معلم'},
+  {en:'student',        fa:'دانش‌آموز'},
+  {en:'class',          fa:'کلاس'},
+  {en:'morning',        fa:'صبح'},
+  {en:'afternoon',      fa:'بعدازظهر'}
+];
+const WM = {}; WORDS.forEach(w => WM[w.en] = w.fa);
+
+/* --- تصویرواژه‌نامه --- */
+const PHOTO = [
+  {en:'pen',      fa:'خودکار'},
+  {en:'pencil',   fa:'مداد'},
+  {en:'notebook', fa:'دفتر'},
+  {en:'book',     fa:'کتاب'},
+  {en:'eraser',   fa:'پاک‌کن'},
+  {en:'backpack', fa:'کوله‌پشتی'},
+  {en:'ruler',    fa:'خط‌کش'},
+  {en:'desk',     fa:'میز'},
+  {en:'red',      fa:'قرمز'},
+  {en:'blue',     fa:'آبی'},
+  {en:'green',    fa:'سبز'},
+  {en:'black',    fa:'مشکی'},
+  {en:'white',    fa:'سفید'},
+  {en:'yellow',   fa:'زرد'}
+];
+const PM = {}; PHOTO.forEach(p => PM[p.en] = p.fa);
+
+/* ============================================================
+   GRAMMAR — هر سؤال با کانتکست کافی و پاسخ یکتا
+   ============================================================ */
+const GRAMMAR = [
+  /* --- سلام و احوالپرسی --- */
+  { q:'(در ساعت ۸ صبح وارد کلاس می‌شوی و به معلم سلام می‌کنی)\nGood ___!',
+    o:['morning','afternoon','fine','name'], a:'morning',
+    h:'در ساعت صبح از <b class="en">Good morning!</b> استفاده می‌کنیم.' },
+  { q:'(در ساعت ۳ بعدازظهر با همکارت روبرو می‌شوی)\nGood ___!',
+    o:['afternoon','morning','fine','name'], a:'afternoon',
+    h:'بعد از ظهر از <b class="en">Good afternoon!</b> استفاده می‌کنیم.' },
+  { q:'(می‌خواهی حال دوستت را بپرسی)\n___ are you?',
+    o:['How','What','Who','Where'], a:'How',
+    h:'<b class="en">How are you?</b> = «حالت چطور است؟»<br>پاسخ رایج: <b class="en">I\'m fine, thanks.</b>' },
+  { q:'(در جواب «How are you?» می‌خواهی بگویی خوبم)\nI\'m ___, thanks.',
+    o:['fine','name','morning','how'], a:'fine',
+    h:'پاسخ به احوالپرسی: <b class="en">I\'m fine, thanks.</b>' },
+  { q:'(دوستت می‌پرسد «How are you today?» و حالت عالی است)\n___, thanks.',
+    o:['Great','How','What','Name'], a:'Great',
+    h:'برای حالت عالی: <b class="en">Great, thanks.</b>' },
+  { q:'(می‌خواهی از کسی بخواهی با احترام نامش را بگوید)\nTell ___, your name, please.',
+    o:['me','I','my','mine'], a:'me',
+    h:'بعد از <b class="en">tell</b> از ضمیر مفعولی استفاده می‌کنیم:<br><b class="en">Tell <u>me</u> your name, please.</b>' },
+
+  /* --- پرسیدن نام --- */
+  { q:'(می‌خواهی نام کسی را که تازه دیده‌ای بپرسی)\nWhat ___ your name?',
+    o:['is','are','am','be'], a:'is',
+    h:'<b class="en">What is your name?</b> = <b class="en">What\'s your name?</b><br>پاسخ: <b class="en">My name is Ali.</b>' },
+  { q:'(دوستت می‌گوید «I\'m Ali» ولی تو مطمئن نیستی چه گفت)\nWhat\'s your ___?',
+    o:['name','fine','how','please'], a:'name',
+    h:'<b class="en">What\'s your name?</b> = «اسمت چیست؟»' },
+
+  /* --- معرفی خود --- */
+  { q:'(می‌خواهی خودت را معرفی کنی و اسمت علی است)\nMy name ___ Ali.',
+    o:['is','are','am','be'], a:'is',
+    h:'<b class="en">name</b> سوم‌شخص مفرد است → <b class="en">is</b>.<br><b class="en">My name is Ali.</b>' },
+  { q:'(معلم می‌پرسد: What\'s your name? و اسم تو سارا است)\nI ___ Sara.',
+    o:['am','is','are','be'], a:'am',
+    h:'فاعل <b class="en">I</b> همیشه با <b class="en">am</b>:<br><b class="en">I am Sara. = I\'m Sara.</b>' },
+  { q:'(می‌خواهی خودت را معرفی کنی و اسمت رضاست)\n___ name is Reza.',
+    o:['My','I','Me','Mine'], a:'My',
+    h:'<b class="en">My name is Reza.</b> = «اسم من رضاست.»' },
+
+  /* --- نام کوچک --- */
+  { q:'(در نام کامل «علی رضایی»، «علی» نام کوچک است. می‌خواهی نام کوچک کسی را بپرسی)\nWhat\'s your ___ name?',
+    o:['first','last','small','middle'], a:'first',
+    h:'<b class="en">first name</b> = نام کوچک.<br><b class="en">What\'s your first name?</b>' },
+  { q:'(اسم کوچک تو ساراست و می‌خواهی این را بگویی)\nMy ___ name is Sara.',
+    o:['first','last','small','middle'], a:'first',
+    h:'<b class="en">My first name is Sara.</b> = «نام کوچک من ساراست.»' },
+
+  /* --- نام خانوادگی --- */
+  { q:'(در نام کامل «علی رضایی»، «رضایی» نام خانوادگی است. می‌خواهی نام خانوادگی کسی را بپرسی)\nWhat\'s your ___ name?',
+    o:['last','first','small','middle'], a:'last',
+    h:'<b class="en">last name</b> = نام خانوادگی.<br><b class="en">What\'s your last name?</b>' },
+  { q:'(نام خانوادگی تو رضایی است و می‌خواهی این را بگویی)\nMy ___ name is Rezaei.',
+    o:['last','first','small','middle'], a:'last',
+    h:'<b class="en">My last name is Rezaei.</b>' },
+
+  /* --- هجی کردن (همیشه خطاب به خود مخاطب: you) --- */
+  { q:'(دوستت اسمش را گفت ولی مطمئن نیستی چطور نوشته می‌شود. از خودش می‌پرسی)\nHow ___ you spell your name?',
+    o:['do','does','are','is'], a:'do',
+    h:'با فاعل <b class="en">you</b> از <b class="en">do</b> استفاده می‌کنیم:<br><b class="en">How do you spell your name?</b>' },
+  { q:'(می‌خواهی بپرسی نام کوچکت را چطور هجی می‌کنی)\nHow do you ___ your first name?',
+    o:['spell','say','tell','ask'], a:'spell',
+    h:'<b class="en">spell</b> یعنی «هجی کردن».<br><b class="en">How do you spell your first name?</b>' },
+  { q:'(می‌خواهی بپرسی نام خانوادگی‌ات را چطور هجی می‌کنی)\nHow do you spell your ___ name?',
+    o:['last','first','small','middle'], a:'last',
+    h:'<b class="en">How do you spell your last name?</b> = «چطور نام خانوادگی‌ات را هجی می‌کنی؟»' },
+  { q:'(می‌خواهی از خود مخاطب بپرسی نامش را چطور هجی می‌کند)\n___ do you spell your name?',
+    o:['How','What','Who','Where'], a:'How',
+    h:'<b class="en">How do you spell your name?</b>' },
+
+  /* --- Tell / Say --- */
+  { q:'(می‌خواهی مؤدبانه از کسی بخواهی نامش را بگوید)\n___ me your name, please.',
+    o:['Tell','Say','Spell','Ask'], a:'Tell',
+    h:'<b class="en">Tell me your name, please.</b><br>بعد از <b class="en">tell</b> مفعول می‌آید.' },
+  { q:'(می‌خواهی از کسی بخواهی نامش را بگوید — بدون ضمیر مفعولی)\n___ your name, please.',
+    o:['Say','Tell','Spell','Ask'], a:'Say',
+    h:'<b class="en">Say your name, please.</b><br>بعد از <b class="en">say</b> مستقیماً اسم می‌آید.' },
+
+  /* --- القاب احترامی --- */
+  { q:'(آقای کریمی معلم مرد توست. می‌خواهی او را با لقب معرفی کنی)\n___ Karimi is my teacher.',
+    o:['Mr.','Mrs.','Miss','—'], a:'Mr.',
+    h:'برای مردان از <b class="en">Mr.</b> استفاده می‌کنیم:<br><b class="en">Mr. Karimi is my teacher.</b>' },
+  { q:'(خانم احمدی معلم زن متأهل توست. می‌خواهی او را با لقب معرفی کنی)\n___ Ahmadi is my teacher.',
+    o:['Mrs.','Mr.','Miss','—'], a:'Mrs.',
+    h:'برای زنان متأهل از <b class="en">Mrs.</b> استفاده می‌کنیم:<br><b class="en">Mrs. Ahmadi is my teacher.</b>' },
+  { q:'(خانم مریم معلم زن مجرد توست. می‌خواهی او را با لقب معرفی کنی)\n___ Maryam is my teacher.',
+    o:['Miss','Mr.','Mrs.','—'], a:'Miss',
+    h:'برای زنان مجرد از <b class="en">Miss</b> استفاده می‌کنیم:<br><b class="en">Miss Maryam is my teacher.</b>' }
+];
+
+/* ============================================================
+   SENTENCES — جمله‌سازی، همه با کانتکست مشخص
+   ============================================================ */
+const SENTENCES = [
+  {en:'What\'s your name?',                 fa:'(می‌خواهی نام کسی را بپرسی)'},
+  {en:'My name is Ali.',                    fa:'(می‌خواهی بگویی اسمت علی است)'},
+  {en:'What\'s your first name?',           fa:'(می‌خواهی نام کوچک کسی را بپرسی)'},
+  {en:'My first name is Sara.',             fa:'(می‌خواهی نام کوچکت را بگویی)'},
+  {en:'What\'s your last name?',            fa:'(می‌خواهی نام خانوادگی کسی را بپرسی)'},
+  {en:'My last name is Rezaei.',            fa:'(می‌خواهی نام خانوادگی‌ات را بگویی)'},
+  {en:'How do you spell your name?',        fa:'(می‌خواهی بپرسی نام مخاطب را چطور هجی می‌کند)'},
+  {en:'How do you spell your first name?',  fa:'(می‌خواهی بپرسی نام کوچک مخاطب را چطور هجی می‌کند)'},
+  {en:'How do you spell your last name?',   fa:'(می‌خواهی بپرسی نام خانوادگی مخاطب را چطور هجی می‌کند)'},
+  {en:'Tell me your name, please.',         fa:'(می‌خواهی مؤدبانه از کسی بخواهی نامش را بگوید)'},
+  {en:'Say your name, please.',             fa:'(می‌خواهی از کسی بخواهی نامش را بگوید — بدون ضمیر)'},
+  {en:'How are you today?',                 fa:'(می‌خواهی حال کسی را بپرسی)'},
+  {en:'I\'m fine, thanks.',                 fa:'(می‌خواهی بگویی خوبم و ممنون)'},
+  {en:'Good morning!',                      fa:'(صبح کسی را می‌بینی و سلام می‌کنی)'},
+  {en:'Good afternoon!',                    fa:'(بعد از ظهر کسی را می‌بینی و سلام می‌کنی)'},
+  {en:'Mr. Karimi is my teacher.',          fa:'(آقای کریمی معلم مرد توست)'},
+  {en:'Mrs. Ahmadi is my teacher.',         fa:'(خانم احمدی معلم زن متأهل توست)'},
+  {en:'Miss Maryam is my teacher.',         fa:'(خانم مریم معلم زن مجرد توست)'}
+];
+
+/* ============================================================
+   QA — جفت سؤال/پاسخ، فقط ساختارهای درس
+   ============================================================ */
+const QA_PAIRS = [
+  {q:'What\'s your name?',                a:'My name is Reza.'},
+  {q:'What\'s your first name?',          a:'My first name is Sara.'},
+  {q:'What\'s your last name?',           a:'My last name is Mohammadi.'},
+  {q:'How are you?',                      a:'I\'m fine, thanks.'},
+  {q:'How are you today?',                a:'Great, thanks.'},
+  {q:'How do you spell your name?',       a:'A-L-I.'},
+  {q:'How do you spell your first name?', a:'S-A-R-A.'},
+  {q:'How do you spell your last name?',  a:'R-E-Z-A-E-I.'},
+  {q:'Is Mr. Karimi your teacher?',       a:'Yes, he is.'},
+  {q:'Is Mrs. Ahmadi your teacher?',      a:'Yes, she is.'}
+];
+
+/* ============================================================
+   SITUATIONS — کدام عبارت؟ با کانتکست کامل
+   ============================================================ */
+const SITUATIONS = [
+  {fa:'صبح زود وارد کلاس می‌شوی و به معلم سلام می‌کنی. چه می‌گویی؟',
+   a:'Good morning!'},
+  {fa:'ساعت ۳ بعدازظهر با دوستت روبرو می‌شوی و سلام می‌کنی. چه می‌گویی؟',
+   a:'Good afternoon!'},
+  {fa:'می‌خواهی حال دوستت را بپرسی. چه می‌گویی؟',
+   a:'How are you?'},
+  {fa:'دوستت می‌پرسد «How are you?» و می‌خواهی بگویی خوبم و ممنون. چه می‌گویی؟',
+   a:'I\'m fine, thanks.'},
+  {fa:'دوستت می‌پرسد «How are you today?» و حالت عالی است. چه می‌گویی؟',
+   a:'Great, thanks.'},
+  {fa:'کسی را تازه ملاقات کرده‌ای و می‌خواهی نامش را بپرسی. چه می‌گویی؟',
+   a:'What\'s your name?'},
+  {fa:'معلم می‌پرسد «What\'s your name?» و اسم تو علی است. چه می‌گویی؟',
+   a:'My name is Ali.'},
+  {fa:'می‌خواهی نام کوچک دوستت را بپرسی. چه می‌گویی؟',
+   a:'What\'s your first name?'},
+  {fa:'می‌خواهی نام خانوادگی دوستت را بپرسی. چه می‌گویی؟',
+   a:'What\'s your last name?'},
+  {fa:'دوستت اسمش را گفت ولی مطمئن نیستی چطور نوشته می‌شود. چه می‌پرسی؟',
+   a:'How do you spell your name?'},
+  {fa:'می‌خواهی مؤدبانه از کسی بخواهی نامش را بگوید. چه می‌گویی؟',
+   a:'Tell me your name, please.'},
+  {fa:'می‌خواهی از کسی بخواهی نامش را بگوید — بدون ضمیر مفعولی. چه می‌گویی؟',
+   a:'Say your name, please.'},
+  {fa:'می‌خواهی معلم مردت (آقای کریمی) را با لقب احترامی خطاب کنی. چه می‌گویی؟',
+   a:'Mr. Karimi'},
+  {fa:'می‌خواهی معلم زن متأهلت (خانم احمدی) را با لقب احترامی خطاب کنی. چه می‌گویی؟',
+   a:'Mrs. Ahmadi'},
+  {fa:'می‌خواهی معلم زن مجردت (خانم مریم) را با لقب احترامی خطاب کنی. چه می‌گویی؟',
+   a:'Miss Maryam'}
+];
+
+/* ============================================================
+   STATE
+   ============================================================ */
+const S = { name:'', score:0 };
+let RUN = null;
+let LAST_GAME = null;
+
+function updateTop(){
+  $('#userNameTop').textContent = S.name || '—';
+  $('#scoreTop').textContent = S.score;
+  $('#menuName').textContent = S.name || '';
+}
+function show(id){
+  $$('.screen').forEach(s=>s.classList.remove('active'));
+  $('#'+id).classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+/* ============================================================
+   START / RESET / MENU
+   ============================================================ */
+$('#startBtn').addEventListener('click', ()=>{
+  const v = $('#nameInput').value.trim();
+  if(v.length < 3){
+    $('#nameErr').textContent = 'لطفاً نام و نام خانوادگی خود را کامل وارد کنید.';
+    $('#nameInput').focus(); return;
+  }
+  $('#nameErr').textContent = '';
+  S.name = v; S.score = 0;
+  document.body.classList.remove('on-start');
+  updateTop(); show('screen-menu');
+});
+$('#nameInput').addEventListener('keydown', e=>{ if(e.key === 'Enter') $('#startBtn').click(); });
+
+$('#resetBtn').addEventListener('click', ()=>{
+  if(!confirm('همهٔ امتیازها پاک شود و به صفحهٔ اول برگردیم؟')) return;
+  S.name = ''; S.score = 0; RUN = null; LAST_GAME = null;
+  try{ window.speechSynthesis.cancel(); }catch(e){}
+  $('#nameInput').value = ''; $('#nameErr').textContent = '';
+  document.body.classList.add('on-start');
+  updateTop(); show('screen-start');
+});
+
+$$('.menu-card[data-game]').forEach(btn=>{
+  btn.addEventListener('click', ()=> startGame(btn.dataset.game));
+});
+$('#lessonBtn').addEventListener('click', ()=>{ show('screen-lesson'); });
+$('#lessonBack').addEventListener('click', ()=>{ show('screen-menu'); });
+$('#gameBack').addEventListener('click', ()=>{
+  if(confirm('از این تمرین خارج می‌شوی؟ (امتیازهای این تمرین از دست می‌رود)')) {
+    RUN = null; show('screen-menu');
+  }
+});
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+(function buildVocabTable(){
+  const tb = $('#vocabTable tbody');
+  WORDS.forEach((w,i)=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td>'+(i+1)+'</td>'
+      + '<td><b class="en" style="direction:ltr;unicode-bidi:isolate">'+esc(w.en)+'</b></td>'
+      + '<td>'+esc(w.fa)+'</td>'
+      + '<td><button class="speak-btn" data-w="'+esc(w.en)+'">🔊</button></td>';
+    tb.appendChild(tr);
+  });
+  tb.addEventListener('click', e=>{
+    const b = e.target.closest('.speak-btn');
+    if(b) speak(b.dataset.w);
+  });
+})();
+(function buildPhotoTable(){
+  const tb = $('#photoTable tbody');
+  PHOTO.forEach((w,i)=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td>'+(i+1)+'</td>'
+      + '<td><b class="en" style="direction:ltr;unicode-bidi:isolate">'+esc(w.en)+'</b></td>'
+      + '<td>'+esc(w.fa)+'</td>'
+      + '<td><button class="speak-btn" data-w="'+esc(w.en)+'">🔊</button></td>';
+    tb.appendChild(tr);
+  });
+  tb.addEventListener('click', e=>{
+    const b = e.target.closest('.speak-btn');
+    if(b) speak(b.dataset.w);
+  });
+})();
+
+/* ============================================================
+   GAME ENGINE
+   ============================================================ */
+function setBar(pct, label){
+  $('#progressFill').style.width = Math.max(0, Math.min(100, pct)) + '%';
+  if(label) $('#qCounter').textContent = label;
+}
+function startGame(id){
+  const builder = GAMES[id];
+  if(!builder) return;
+  LAST_GAME = id;
+  RUN = { id, steps: builder.build(), idx:0, correct:0 };
+  $('#gameTitle').textContent = builder.title;
+  $('#gCorrect').textContent = '0';
+  show('screen-game'); renderStep();
+}
+function renderStep(){
+  if(!RUN) return;
+  if(RUN.idx >= RUN.steps.length){ finishGame(); return; }
+  const step = RUN.steps[RUN.idx];
+  setBar((RUN.idx / RUN.steps.length) * 100, 'سؤال '+(RUN.idx+1)+' از '+RUN.steps.length);
+  $('#gCorrect').textContent = RUN.correct;
+  const body = $('#gameBody'); body.innerHTML = '';
+  const card = document.createElement('div');
+  card.className = 'qcard'; body.appendChild(card);
+  step.build(card, ok => onStepAnswered(ok, step));
+}
+function onStepAnswered(ok, step){
+  $('#gameBody').querySelectorAll('button').forEach(b=>{ b.disabled = true; });
+  if(ok){
+    RUN.correct++; S.score += 10;
+    $('#gCorrect').textContent = RUN.correct;
+    updateTop(); toast(rnd(OK_MSGS), 'ok');
+    if(step.tts) speak(step.tts);
+    setTimeout(()=>{ if(RUN){ RUN.idx++; renderStep(); } }, 850);
+  } else {
+    updateTop(); toast(rnd(NO_MSGS), 'no');
+    setTimeout(()=>{
+      if(!RUN) return;
+      showPopup('🤔 بیا با هم مرور کنیم', step.hint, ()=>{
+        if(RUN){ RUN.idx++; renderStep(); }
+      });
+    }, 650);
+  }
+}
+function finishGame(){
+  const total = RUN.steps.length;
+  const correct = RUN.correct;
+  const pct = total ? correct/total : 0;
+  setBar(100, 'پایان تمرین');
+  $('#resTotal').textContent = total;
+  $('#resCorrect').textContent = correct;
+  $('#resName').textContent = S.name;
+  let stars = '⭐';
+  if(pct >= 0.5) stars = '⭐⭐';
+  if(pct >= 0.8) stars = '⭐⭐⭐';
+  if(pct >= 1)   stars = '⭐⭐⭐⭐';
+  $('#resStars').textContent = stars;
+  let emoji = '🎉', title = 'کارت عالی بود!';
+  if(pct < 0.5){ emoji = '💪'; title = 'نگران نباش، با تمرین بهتر می‌شوی!'; }
+  else if(pct < 0.8){ emoji = '👏'; title = 'خوب بود! کمی تمرین بیشتر لازم است.'; }
+  else if(pct < 1){ emoji = '🌟'; title = 'خیلی خوب بود! نزدیک به کامل.'; }
+  $('#resEmoji').textContent = emoji;
+  $('#resTitle').textContent = title;
+  show('screen-result');
+}
+$('#againBtn').addEventListener('click', ()=>{ if(LAST_GAME) startGame(LAST_GAME); });
+$('#toMenuBtn').addEventListener('click', ()=>{ RUN = null; show('screen-menu'); });
+
+/* ============================================================
+   MULTIPLE CHOICE BUILDER
+   ============================================================ */
+function buildOptions(box, opts, answer, lang, resolve){
+  let locked = false;
+  opts.forEach(o=>{
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'opt' + (lang === 'en' ? ' en' : '');
+    b.textContent = o;
+    b.addEventListener('click', ()=>{
+      if(locked) return;
+      locked = true;
+      const ok = (o === answer);
+      if(ok){ b.classList.add('correct'); }
+      else{
+        b.classList.add('wrong');
+        Array.from(box.children).forEach(x=>{ if(x.textContent === answer) x.classList.add('correct'); });
+      }
+      box.querySelectorAll('button').forEach(x=>x.disabled = true);
+      resolve(ok);
+    });
+    box.appendChild(b);
+  });
+}
+
+/* ============================================================
+   GAME 1 — معنی واژه‌ها
+   ============================================================ */
+function stepsVocab(){
+  const pool = shuffle(WORDS).slice(0, 12);
+  return pool.map(w=>{
+    const en2fa = Math.random() < 0.5;
+    const others = shuffle(WORDS.filter(x=>x.en !== w.en)).slice(0, 3);
+    if(en2fa){
+      const opts = shuffle([w.fa, ...others.map(x=>x.fa)]);
+      return {
+        tts: w.en,
+        hint: 'واژهٔ <b class="en">'+esc(w.en)+'</b> یعنی «'+esc(w.fa)+'».',
+        build(card, resolve){
+          card.innerHTML = '<div class="qlabel">معنی این واژه چیست؟</div>'
+            + '<div class="qprompt en" style="direction:ltr;unicode-bidi:isolate">'+esc(w.en)+'</div>'
+            + '<div class="options"></div>';
+          buildOptions(card.querySelector('.options'), opts, w.fa, 'fa', resolve);
+        }
+      };
+    } else {
+      const opts = shuffle([w.en, ...others.map(x=>x.en)]);
+      return {
+        tts: w.en,
+        hint: '«'+esc(w.fa)+'» در انگلیسی <b class="en">'+esc(w.en)+'</b> است.',
+        build(card, resolve){
+          card.innerHTML = '<div class="qlabel">معادل انگلیسی کدام است؟</div>'
+            + '<div class="qprompt big">'+esc(w.fa)+'</div>'
+            + '<div class="options"></div>';
+          buildOptions(card.querySelector('.options'), opts, w.en, 'en', resolve);
+        }
+      };
+    }
+  });
+}
+
+/* ============================================================
+   GAME 2 — املا
+   ============================================================ */
+function stepsSpelling(){
+  const pool = shuffle(WORDS.filter(w=>w.en.length >= 4 && !w.en.includes(' '))).slice(0, 8);
+  return pool.map(w=>({
+    tts: w.en,
+    hint: 'املای درست: <b class="en">'+esc(w.en)+'</b> — «'+esc(w.fa)+'».',
+    build(card, resolve){ buildSpelling(card, w, resolve); }
+  }));
+}
+function buildSpelling(card, w, resolve){
+  const target = w.en;
+  const letters = target.split('');
+  const extras = shuffle('aeioustrnlmc'.split('')).slice(0, 2);
+  const pool = shuffle([...letters, ...extras]);
+  card.innerHTML = '<div class="qlabel">این واژه را با حروف داده‌شده بساز:</div>'
+    + '<div class="qprompt big" style="font-size:1.35rem;">'+esc(w.fa)+'</div>'
+    + '<div class="slots" id="slots"></div>'
+    + '<div class="tiles" id="tiles"></div>'
+    + '<div class="row-btns"><button class="btn-ghost" id="clearBtn" type="button">پاک کردن</button></div>';
+  const slotsEl = card.querySelector('#slots');
+  const tilesEl = card.querySelector('#tiles');
+  const slotEls = [];
+  for(let i=0;i<target.length;i++){
+    const s = document.createElement('div');
+    s.className = 'slot'; slotsEl.appendChild(s); slotEls.push(s);
+  }
+  let filled = []; let locked = false;
+  function paintSlots(){
+    slotEls.forEach((s,i)=>{
+      if(i < filled.length){
+        s.textContent = filled[i].tileEl.textContent;
+        s.classList.add('filled');
+        s.onclick = ()=>{ if(locked) return; filled[i].tileEl.classList.remove('used'); filled.splice(i,1); paintSlots(); };
+      } else {
+        s.textContent = ''; s.classList.remove('filled'); s.onclick = null;
+      }
+    });
+  }
+  pool.forEach(ch=>{
+    const t = document.createElement('button');
+    t.type = 'button'; t.className = 'tile'; t.textContent = ch;
+    t.addEventListener('click', ()=>{
+      if(locked || t.classList.contains('used')) return;
+      if(filled.length >= target.length) return;
+      t.classList.add('used'); filled.push({tileEl:t}); paintSlots();
+      if(filled.length === target.length) check();
+    });
+    tilesEl.appendChild(t);
+  });
+  card.querySelector('#clearBtn').addEventListener('click', ()=>{
+    if(locked) return;
+    filled.forEach(f=>f.tileEl.classList.remove('used'));
+    filled = []; paintSlots();
+  });
+  function check(){
+    locked = true;
+    const made = filled.map(f=>f.tileEl.textContent).join('');
+    const ok = (made === target);
+    slotEls.forEach(s=>s.classList.add(ok ? 'ok' : 'bad'));
+    card.querySelectorAll('button').forEach(b=>b.disabled = true);
+    resolve(ok);
+  }
+  paintSlots();
+}
+
+/* ============================================================
+   GAME 3 — گرامر
+   ============================================================ */
+function stepsGrammar(){
+  return shuffle(GRAMMAR).slice(0, 10).map(g=>({
+    hint: g.h,
+    build(card, resolve){
+      /* خط اول سؤال ممکن است کانتکست فارسی باشد؛ آن را در qprompt.fa-note نمایش می‌دهیم */
+      const parts = g.q.split('\n');
+      const ctx = parts.length > 1 ? parts[0] : '';
+      const prompt = parts.length > 1 ? parts[1] : parts[0];
+      card.innerHTML = '<div class="qlabel">جای خالی را کامل کن:</div>'
+        + (ctx ? '<div class="qprompt fa-note">'+esc(ctx)+'</div>' : '')
+        + '<div class="qprompt en" style="direction:ltr;unicode-bidi:isolate;font-size:1.25rem;">'+esc(prompt)+'</div>'
+        + '<div class="options"></div>';
+      buildOptions(card.querySelector('.options'), shuffle(g.o), g.a, 'en', resolve);
+    }
+  }));
+}
+
+/* ============================================================
+   GAME 4 — مرتب کردن جمله
+   ============================================================ */
+function stepsScramble(){
+  return shuffle(SENTENCES).slice(0, 8).map(s=>({
+    tts: s.en,
+    hint: 'جملهٔ درست: <b class="en">'+esc(s.en)+'</b>',
+    build(card, resolve){ buildScramble(card, s, resolve); }
+  }));
+}
+function buildScramble(card, s, resolve){
+  const tokens = s.en.split(' ');
+  const bankItems = shuffle(tokens.map(t=>({t})));
+  let chosen = []; let locked = false;
+  card.innerHTML = '<div class="qlabel">این جمله را به ترتیب درست بساز:</div>'
+    + '<div class="qprompt fa-note">'+esc(s.fa)+'</div>'
+    + '<div class="answer-line" id="ansLine"></div>'
+    + '<div class="bank" id="bankLine"></div>';
+  const ansLine = card.querySelector('#ansLine');
+  const bankLine = card.querySelector('#bankLine');
+  function render(){
+    ansLine.innerHTML = ''; bankLine.innerHTML = '';
+    chosen.forEach((item, idx)=>{
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'token'; b.textContent = item.t;
+      b.addEventListener('click', ()=>{ if(locked) return; chosen.splice(idx,1); render(); });
+      ansLine.appendChild(b);
+    });
+    if(!chosen.length){
+      const ph = document.createElement('span');
+      ph.className = 'ph'; ph.textContent = 'کلمات را به ترتیب اینجا بچین…';
+      ansLine.appendChild(ph);
+    }
+    bankItems.forEach(item=>{
+      const used = chosen.indexOf(item) !== -1;
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'token' + (used ? ' used' : '');
+      b.textContent = item.t; b.disabled = used || locked;
+      b.addEventListener('click', ()=>{
+        if(locked) return; chosen.push(item); render();
+        if(chosen.length === tokens.length) check();
+      });
+      bankLine.appendChild(b);
+    });
+  }
+  function check(){
+    locked = true;
+    const made = chosen.map(x=>x.t).join(' ');
+    const ok = (made === s.en);
+    ansLine.classList.add(ok ? 'ok' : 'bad');
+    card.querySelectorAll('button').forEach(b=>b.disabled = true);
+    resolve(ok);
+  }
+  render();
+}
+
+/* ============================================================
+   GAME 5 — جور کردن سؤال و پاسخ
+   ============================================================ */
+function stepsQAMatch(){
+  return [{
+    hint: 'به ساختار سؤال و پاسخ دقت کن:<br>'
+        + '<b class="en">What\'s your name? → My name is …</b><br>'
+        + '<b class="en">What\'s your first name? → My first name is …</b><br>'
+        + '<b class="en">What\'s your last name? → My last name is …</b><br>'
+        + '<b class="en">How are you? → I\'m fine, thanks.</b><br>'
+        + '<b class="en">How do you spell your name? → A-L-I.</b>',
+    build(card, resolve){ buildQAMatch(card, resolve); }
+  }];
+}
+function buildQAMatch(card, resolve){
+  const pairs = shuffle(QA_PAIRS).slice(0, 6);
+  const answersOf = {};
+  pairs.forEach(p => answersOf[p.q] = p.a);
+  const qList = shuffle(pairs.map(p=>p.q));
+  const aList = shuffle(pairs.map(p=>p.a));
+  let selQ = null, selA = null, matched = 0, locked = false;
+  const total = pairs.length;
+  card.innerHTML = '<div class="qlabel">هر سؤال را به پاسخ درستش وصل کن:</div>'
+    + '<div class="match-sec"><div class="sec-t">❓ سؤال‌ها</div><div class="match-grid" id="qBank"></div></div>'
+    + '<div class="match-sec"><div class="sec-t">💬 پاسخ‌ها</div><div class="match-grid" id="aBank"></div></div>'
+    + '<div class="inline-hint" id="mHint"></div>';
+  const qBank = card.querySelector('#qBank');
+  const aBank = card.querySelector('#aBank');
+  const hintEl = card.querySelector('#mHint');
+  qList.forEach(q=>{
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'match-tile'; b.textContent = q; b.dataset.q = q;
+    b.addEventListener('click', ()=>{
+      if(locked || b.classList.contains('matched')) return;
+      if(selQ === b){ b.classList.remove('sel'); selQ = null; return; }
+      if(selQ) selQ.classList.remove('sel');
+      selQ = b; b.classList.add('sel'); tryMatch();
+    });
+    qBank.appendChild(b);
+  });
+  aList.forEach(a=>{
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'match-tile'; b.textContent = a; b.dataset.a = a;
+    b.addEventListener('click', ()=>{
+      if(locked || b.classList.contains('matched')) return;
+      if(selA === b){ b.classList.remove('sel'); selA = null; return; }
+      if(selA) selA.classList.remove('sel');
+      selA = b; b.classList.add('sel'); tryMatch();
+    });
+    aBank.appendChild(b);
+  });
+  function tryMatch(){
+    if(!selQ || !selA) return;
+    const q = selQ.dataset.q, a = selA.dataset.a;
+    if(answersOf[q] === a){
+      selQ.classList.remove('sel'); selA.classList.remove('sel');
+      selQ.classList.add('matched'); selA.classList.add('matched');
+      selQ.disabled = true; selA.disabled = true;
+      selQ = null; selA = null; matched++;
+      hintEl.textContent = '';
+      setBar((matched/total)*100, 'جفت '+matched+' از '+total);
+      speak(a);
+      if(matched === total){
+        locked = true;
+        toast('همهٔ جفت‌ها درست! 🎉','ok');
+        setTimeout(()=> resolve(true), 500);
+      }
+    } else {
+      locked = true;
+      hintEl.textContent = 'این دو با هم جور نیستند 🤔';
+      const badQ = selQ, badA = selA;
+      badQ.classList.add('shake'); badA.classList.add('shake');
+      setTimeout(()=>{
+        showPopup('🤔 این جفت با هم نمی‌سازند',
+          'به ساختار سؤال و پاسخ دقت کن:<br>'
+          + '<b class="en">What\'s your name? → My name is …</b><br>'
+          + '<b class="en">What\'s your first name? → My first name is …</b><br>'
+          + '<b class="en">What\'s your last name? → My last name is …</b><br>'
+          + '<b class="en">How are you? → I\'m fine, thanks.</b><br>'
+          + '<b class="en">How do you spell your name? → A-L-I.</b>',
+          ()=>{
+            if(!RUN) return;
+            badQ.classList.remove('sel','shake');
+            badA.classList.remove('sel','shake');
+            selQ = null; selA = null;
+            hintEl.textContent = '';
+            locked = false;
+          });
+      }, 450);
+    }
+  }
+  setBar(0, 'جفت ۰ از '+total);
+}
+
+/* ============================================================
+   GAME 6 — کدام عبارت؟
+   ============================================================ */
+function stepsSituation(){
+  const pool = shuffle(SITUATIONS).slice(0, 8);
+  return pool.map(s=>{
+    const others = shuffle(SITUATIONS.filter(x=>x.a !== s.a)).slice(0, 3).map(x=>x.a);
+    const opts = shuffle([s.a, ...others]);
+    return {
+      tts: s.a,
+      hint: 'پاسخ درست: <b class="en">'+esc(s.a)+'</b>',
+      build(card, resolve){
+        card.innerHTML = '<div class="qlabel">کدام عبارت با این موقعیت می‌خواند؟</div>'
+          + '<div class="qprompt" style="font-size:1.02rem;line-height:1.9;padding-bottom:0;">'+esc(s.fa)+'</div>'
+          + '<div class="options"></div>';
+        buildOptions(card.querySelector('.options'), opts, s.a, 'en', resolve);
+      }
+    };
+  });
+}
+
+/* ============================================================
+   GAME 7 — تصویرواژه‌نامه
+   ============================================================ */
+function stepsPhoto(){
+  const pool = shuffle(PHOTO).slice(0, 8);
+  return pool.map(p=>{
+    const others = shuffle(PHOTO.filter(x=>x.en !== p.en)).slice(0, 3).map(x=>x.en);
+    const opts = shuffle([p.en, ...others]);
+    return {
+      tts: p.en,
+      hint: 'معادل درست: <b class="en">'+esc(p.en)+'</b> — «'+esc(p.fa)+'».',
+      build(card, resolve){
+        card.innerHTML = '<div class="qlabel">معادل انگلیسی کدام است؟</div>'
+          + '<div class="qprompt" style="font-size:1.05rem;line-height:1.9;padding-bottom:0;">'+esc(p.fa)+'</div>'
+          + '<div class="options"></div>';
+        buildOptions(card.querySelector('.options'), opts, p.en, 'en', resolve);
+      }
+    };
+  });
+}
+
+/* ============================================================
+   REGISTRY
+   ============================================================ */
+const GAMES = {
+  vocab:     { title:'📖 معنی واژه‌ها',              build: stepsVocab },
+  spelling:  { title:'✏️ املای واژه‌ها',              build: stepsSpelling },
+  grammar:   { title:'🧩 گرامر و ساختارها',          build: stepsGrammar },
+  scramble:  { title:'🔀 مرتب کردن جمله‌ها',          build: stepsScramble },
+  qamatch:   { title:'🔗 سؤال و پاسخ را جور کن',      build: stepsQAMatch },
+  situation: { title:'🧠 کدام عبارت؟',                build: stepsSituation },
+  photo:     { title:'🖼️ تصویرواژه‌نامه',            build: stepsPhoto }
+};
+
+/* ============================================================
+   INIT
+   ============================================================ */
+updateTop();
+</script>
+</body>
+</html>
